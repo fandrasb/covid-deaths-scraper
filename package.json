@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/fandrasb/covid-deaths-scraper/issues"
   },
-  "homepage": "https://github.com/fandrasb/covid-deaths-scraper#readme"
+  "homepage": "https://github.com/fandrasb/covid-deaths-scraper#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "innertext": "^1.0.3",
+    "jsdom": "^16.4.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }
