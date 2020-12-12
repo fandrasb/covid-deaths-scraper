@@ -1,0 +1,26 @@
+{
+  "name": "covid-deaths-scraper",
+  "version": "1.0.0",
+  "description": "Nem találtam kormány API-t, így jobb híján a https://koronavirus.gov.hu/elhunytak oldalakat scrapeljük feldolgozható adat reményében.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fandrasb/covid-deaths-scraper.git"
+  },
+  "keywords": [
+    "covid",
+    "gov",
+    "gov.hu",
+    "noapi",
+    "sad"
+  ],
+  "author": "András Balázs Fábián",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fandrasb/covid-deaths-scraper/issues"
+  },
+  "homepage": "https://github.com/fandrasb/covid-deaths-scraper#readme"
+}
