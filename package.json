@@ -25,6 +25,7 @@
   "homepage": "https://github.com/fandrasb/covid-deaths-scraper#readme",
   "dependencies": {
     "axios": "^0.21.0",
+    "chart.js": "^2.9.4",
     "innertext": "^1.0.3",
     "jsdom": "^16.4.0"
   },
