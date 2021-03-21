@@ -75,6 +75,7 @@ async function runScrape(mainDoc) {
   const numPages = getNumPages(mainDoc);
   parseDataOnPage(mainDoc);
   for (let i = 1; i <= numPages; ++i) {
+    console.log(`Getting page: ${i}`);
     const resp = await axios.get(
       `https://koronavirus.gov.hu/elhunytak?page=${i}`
     );
