@@ -27,7 +27,7 @@ export default class DailyDeaths {
   /**
    * @param {Document} document
    */
-  _pasre(document) {
+  _parse(document) {
     const graph = document.getElementById('graph-deaths-daily');
     const rects = graph.getElementsByTagName('rect');
     for (rect of rects) {
